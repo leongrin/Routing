@@ -4,8 +4,7 @@
       <a
         [routerLink]="['/servers', server.id]"
         [queryParams]="{allowEdit: server.id === 3 ? '1' : '0'}"
-        fragment="loading jogo da velha"
-        href="#"
+        fragment="loading-jogo-da-velha"
         class="list-group-item"
         *ngFor="let server of servers">
         {{ server.name }}
